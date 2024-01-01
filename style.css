@@ -23,3 +23,22 @@
     margin-bottom: 24px;
 
 }
+.section h2{
+    color:#212529;
+}
+
+.text-center p{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 36px;
+}
+#working{
+    background-color: #f8f9fa;
+}
+#features .i{
+    background-color: #1774fd;
+}
+.fw-bold text-primary mx-1{
+    color:#1774fd;
+}
