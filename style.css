@@ -42,3 +42,16 @@
 .fw-bold text-primary mx-1{
     color:#1774fd;
 }
+#aside{
+    background-color: #1774fd ;
+}
+.form-control{
+    width: 1%;
+}
+.footer
+{
+    background-color: #212529;
+}
+#about{
+    background-color:#f8f9fa ;
+}
