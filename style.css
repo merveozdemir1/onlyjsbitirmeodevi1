@@ -10,11 +10,12 @@
     background-color: #212529;
 }
 
-.header h1{
+.header h2{
     color: white;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 24px;
+
 }
 .header p{
     color: rgba(255, 255, 255, 0.50);
@@ -36,8 +37,13 @@
 #working{
     background-color: #f8f9fa;
 }
-#features .i{
+.features .icon{
+    width: 48px;
+    height: 48px;
     background-color: #1774fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .fw-bold text-primary mx-1{
     color:#1774fd;
@@ -54,4 +60,18 @@
 }
 #about{
     background-color:#f8f9fa ;
+}
+.header .header-image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .header .button button{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
 }
