@@ -11,9 +11,8 @@
 }
 
 .header h2{
-    color: white;
-    font-size: 48px;
-    font-weight: 700;
+
+    
     margin-bottom: 24px;
 
 }
@@ -37,13 +36,15 @@
 #working{
     background-color: #f8f9fa;
 }
-.features .icon{
+ .icon i{
     width: 48px;
     height: 48px;
     background-color: #1774fd;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:white;
+    border-radius: 8px;
 }
 .fw-bold text-primary mx-1{
     color:#1774fd;
@@ -52,7 +53,7 @@
     background-color: #1774fd ;
 }
 .form-control{
-    width: 1%;
+    width: 100%;
 }
 .footer
 {
@@ -74,4 +75,12 @@
         margin-top: 10px;
     }
     
+}
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
 }
